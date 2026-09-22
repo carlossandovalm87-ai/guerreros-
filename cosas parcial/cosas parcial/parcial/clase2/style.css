@@ -1,0 +1,27 @@
+:root {
+  --color-primario: #70e9e3;
+  --color-secundario: rgb(26, 238, 238);
+
+}
+
+*{margin: 0;
+padding:0;
+}
+
+
+
+p { color: var(--color-texto, #c5c2c2); }
+
+@media only screen and (min-width: 800px) {
+:root{
+  --color-primario: #e04d21;
+  --color-secundario: rgb(156, 39, 18);
+}
+}
+
+@media only screen and (max-width: 768px) {
+:root{
+  --color-primario: #cde021;
+  --color-secundario: rgb(212, 224, 40);
+}
+}
